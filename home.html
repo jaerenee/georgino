@@ -8,7 +8,7 @@
   }
   .zoom {
     height: 100%;
-    background-image: url(https://wallpapercave.com/wp/wp4363675.jpg);
+    background-image: url('your-image.jpg');
     background-size: cover;
     transition: transform 2s;
   }
@@ -21,10 +21,9 @@
 </div>
 
 <script>
-  let container = document.querySelector('.container');
   let zoom = document.querySelector('.zoom');
   
-  container.addEventListener('scroll', function() {
+  window.addEventListener('scroll', function() {
     zoom.style.transform = 'scale(1.5)';
   });
 </script>
