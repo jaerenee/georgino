@@ -1,0 +1,7 @@
+includes:
+- zoom in over hover
+- avatar maker with jacket/hoodie
+ 
+ needs:
+ - remember if hoodie or jacket saved to local storage
+ - export image button that downloads image as png (container)
